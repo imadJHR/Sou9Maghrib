@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { AlertCircle, Upload, CheckCircle, X } from 'lucide-react';
 
 const AddProductForm = () => {
-  const url = "http://localhost:5000";
+  const url = "https://sou9maghrib-api.onrender.com";
   const [formData, setFormData] = useState({
     name: "",
     description: "",
