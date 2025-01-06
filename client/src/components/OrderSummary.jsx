@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 const OrderSummary = ({ cartItems, subtotal, deliveryFee, totalPrice }) => {
-  const url = "http://localhost:5000";
+  const url = "https://sou9maghrib-api.onrender.com";
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
       <h2 className="text-2xl font-semibold font-serif  mb-4 text-black">Résumé de la commande</h2>
