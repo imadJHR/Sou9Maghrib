@@ -8,7 +8,7 @@ import { Separator } from "@/components/ui/separator";
 
 const CartPage = ({ cartItems, onRemoveFromCart, onUpdateQuantity }) => {
   const navigate = useNavigate();
-  const url = "http://localhost:5000";
+  const url = "https://sou9maghrib-api.onrender.com";
 
   const totalPrice = cartItems.reduce(
     (total, item) => total + item.price * item.quantity,
