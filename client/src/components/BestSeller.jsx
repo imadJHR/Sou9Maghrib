@@ -11,7 +11,7 @@ import { Button } from "./ui/button";
 import { Eye, ShoppingCart } from "lucide-react";
 
 export function BestSellers({ onAddToCart }) {
-  const url = "http://localhost:5000";
+  const url = "https://sou9maghrib-api.onrender.com";
   const navigate = useNavigate(); // Initialisation de navigate
   const [sellers, setSellers] = useState([]);
 
