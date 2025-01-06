@@ -6,7 +6,7 @@ const Dells = ({ onAddToCart }) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-const url = "http://localhost:5000"
+const url = "https://sou9maghrib-api.onrender.com"
   useEffect(() => {
     const fetchProducts = async () => {
       setLoading(true);
