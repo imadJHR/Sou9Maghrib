@@ -7,7 +7,7 @@ import OrderSummary from "../components/OrderSummary";
 import DeliveryForm from "../components/DeliveryForm";
 
 const CheckoutPage = ({ cartItems }) => {
-  const url = "http://localhost:5000";
+  const url = "https://sou9maghrib-api.onrender.com";
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
