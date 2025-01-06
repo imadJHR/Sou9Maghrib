@@ -3,7 +3,7 @@ import axios from "axios";
 import { Trash2, Package, Phone, MapPin, ShoppingBag } from 'lucide-react';
 
 const OrdersPage = () => {
-  const url = "http://localhost:5000";
+  const url = "https://sou9maghrib-api.onrender.com";
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
