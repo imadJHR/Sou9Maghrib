@@ -26,6 +26,7 @@ export function Navbar({ cartCount, onCartClick }) {
           <div className="flex items-center justify-between w-full">
             <div className="flex justify-center">
               <Link to="/" className="flex-shrink-0">
+              tr
                 <img src={Logo} alt="Logo" className="h-8 w-auto" />
               </Link>
             </div>
