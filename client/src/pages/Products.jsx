@@ -16,7 +16,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Loader2 } from "lucide-react";
 
 const Products = ({ onAddToCart }) => {
-  const url = "http://localhost:5000";
+  const url = "https://sou9maghrib-api.onrender.com";
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
