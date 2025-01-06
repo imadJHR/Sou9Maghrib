@@ -137,7 +137,7 @@ export function Navbar({ cartCount, onCartClick }) {
                         mobile
                       />
                       <Link
-                        to="/products/silicone-moule"
+                        to="/products"
                         className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
                         onClick={handleLinkClick}
                       >
