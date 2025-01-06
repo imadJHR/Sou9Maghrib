@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import ProductCard from "@/components/ProductCard";
 
 const SingleProduct = ({ onAddToCart }) => {
-  const url = "http://localhost:5000";
+  const url = "https://sou9maghrib-api.onrender.com";
   const { id } = useParams();
   const navigate = useNavigate();
   const [product, setProduct] = useState(null);
