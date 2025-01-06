@@ -3,7 +3,7 @@ import ProductCard from "@/components/ProductCard";
 import { Loader2 } from 'lucide-react';
 
 const Fofood = ({ onAddToCart }) => {
-  const url = "http://localhost:5000"
+  const url = "https://sou9maghrib-api.onrender.com"
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
