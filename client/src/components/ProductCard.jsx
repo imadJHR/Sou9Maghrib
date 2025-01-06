@@ -13,7 +13,7 @@ import { ShoppingCart, Eye } from "lucide-react";
 
 const ProductCard = ({ product, onAddToCart }) => {
   const navigate = useNavigate();
-  const url = "http://localhost:5000";
+  const url = "https://sou9maghrib-api.onrender.com";
 
   const handleViewDetails = () => {
     navigate(`/products/${product._id}`);
